@@ -4,8 +4,8 @@ export default function Info(){
         <>
         <img  className="profile-photo" src="/myphotoprofile.jpg" alt="my photo" />
         <h1>Andrew Santos</h1>
-        <h2>Full Stack Developer</h2>
-        <h3>andrewsanprojects.com</h3>
+        <h2 className="no-margin">Full Stack Developer</h2>
+        <p className="website-link no-margin">andrewsanprojects.com</p>
         </>
         
     )

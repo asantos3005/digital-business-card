@@ -3,6 +3,7 @@ import Info from './components/Info'
 import About from './components/About'
 import Interests from './components/Interests'
 import Footer from './components/Footer'
+import ActionButtons from './components/ActionButtons'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <main className='main-content'>
       <div className='business-card'>
         < Info/>
+        < ActionButtons />
         < About/>
         < Interests/>
         < Footer/>
